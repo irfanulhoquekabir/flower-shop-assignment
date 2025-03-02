@@ -37,7 +37,7 @@ header {
   font-family: Lato;
   font-weight: 700;
   padding: 20px 43px;
-  background-color: #E55473;
+  background-color: #e55473;
   border: none;
   border-radius: 8px;
 }
@@ -45,4 +45,63 @@ header {
 .header-img {
   width: 635px;
   height: 800px;
+}
+
+/*Flower section started here*/
+
+main {
+  margin: 0px auto;
+  margin-top: 178px;
+}
+
+.title-02 {
+  color: #272727;
+  font-size: 40px;
+  font-family: Lato;
+  font-weight: 800;
+  margin-bottom: 32px;
+}
+
+.title-03 {
+  color: #272727;
+font-size: 24px;
+font-family: Lato;
+font-weight: 700;
+text-decoration: underline;
+line-height: 35px;
+}
+
+.flower-img-container {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
+}
+
+.flower-img-container div {
+  width: 464px;
+  height: 538px;
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center; 
+}
+
+.flower-img-container img {
+  align-items: center;
+}
+
+.flower-img-container h3{
+  margin-top: 32px;
+}
+
+.flower-item{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 126px;
+}
+
+.flower-item div {
+  width: 464px;height: 538px;
 }
