@@ -202,3 +202,33 @@ margin-top: 24px;
   gap: 24px;
 }
 
+/*Latest deal section started here*/
+
+.latest-deal-section{
+  margin-left: 240px;
+  margin-right: 240px;
+  margin-bottom: 128px;
+  margin-top: 128px;
+  background-image: url(Asset/Rectangle\ 9.png);
+  background-size: cover;
+  width: 1440px;
+  height: 449px;
+}
+
+.latest-deal-section h2,.latest-deal-section p{
+  text-align: center;
+}
+
+.input-btn-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.input-btn-container input{
+  padding:23px 513px 22px 23px;
+  background: white;
+  border-radius: 8px;
+ border: none;
+}
