@@ -70,7 +70,7 @@ font-weight: 700;
 text-decoration: underline;
 line-height: 35px;
 }
-
+/*
 .flower-img-container {
   display: flex;
   gap: 24px;
@@ -104,4 +104,66 @@ line-height: 35px;
 
 .flower-item div {
   width: 464px;height: 538px;
+}
+*/
+.flower-section{
+  margin-left: 240px;
+  margin-right: 240px;
+  margin-bottom: 128px;
+}
+
+.flower-section h2{
+  margin-bottom:24px; 
+  text-align:center;
+}
+.flower-section p{
+  width: 594px;
+  text-align: center;
+  margin: 0 auto;
+   margin-bottom: 48px; 
+}
+
+.flower-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flower-box h3{
+  margin-top: 32px;
+}
+
+.flower-cart-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.flower-cart{
+  width: 464px;
+  height: 538px;
+  border-top-left-radius: 300px; 
+  border-top-right-radius: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.flower-img-cart-1{
+  width: 310px;height: 428px;
+}
+
+.flower-img-cart-2{
+  width: 370px;height: 370px;
+}
+
+.flower-img-cart-3{
+  width: 314px;height: 471px;
+}
+
+.flower-cart h3{
+  text-decoration: underline;
 }
