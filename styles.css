@@ -167,3 +167,36 @@ line-height: 35px;
 .flower-cart h3{
   text-decoration: underline;
 }
+
+/*Service section started here*/
+
+.service-section{
+  margin-left: 232px;
+  margin-right: 240px;
+  background-color: rgba(39, 39, 39, 0.05);
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  margin-bottom: 124px;
+  width: 1440px;
+  height: 320px;
+}
+
+.title-04{
+ color: rgba(39, 39, 39, 0.80);
+font-size: 24px;
+font-family: Lato;
+font-weight: 600;
+line-height: 35px;
+margin-top: 24px;
+}
+
+.service-section div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
