@@ -182,3 +182,23 @@ margin-top: 24px;
   margin-bottom: 128px;
   gap: 186px;
 }
+
+/*Instagram section started here*/
+
+.instagram-section{
+  margin-bottom: 128px;
+}
+
+.instagram-section h2,.instagram-section p{
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 24px;
+}
+
+.insta-pics{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
